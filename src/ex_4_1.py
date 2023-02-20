@@ -23,7 +23,7 @@ def num_shutdowns(logfile):
         for i in lines:
             counts=counts+i.count("Shutdown")
              
-    return counts
+    return counts/2
 
 
 # >>>> The code below will call your function and print the results
