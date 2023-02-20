@@ -14,6 +14,7 @@ def get_shutdown_events(logfile):
     Your docstring here.  Replace the pass keyword below with your implementation
     """
     list_of_log=[]
+    print(logfile,"fffffffffffffffffffffff")
     with open('logfile') as f:
         lines = [line.rstrip('\n') for line in f]
         for i in lines:
