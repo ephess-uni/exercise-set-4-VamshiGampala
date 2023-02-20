@@ -23,8 +23,6 @@ def time_between_shutdowns(logfile):
     start_time= logstamp_to_datetime(list1[0].split(' ')[1])
     end_time= logstamp_to_datetime(list1[-1].split(' ')[1])
     diff = end_time - start_time
-    print(diff,"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
-    diff_in_hours = diff
     return diff
 
 
